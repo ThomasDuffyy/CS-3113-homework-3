@@ -1,9 +1,9 @@
 # CS-3113-homework-3
-this zip file contains CS 3113 homework 3, readme ,  source code
+this zip file contain CS 3113 homework 3, readme ,  source code
 
 This program shows the use of Pthreads in C to calculate the sum of integers from 0 to 999 using 10 threads. Each thread calculates the sum of 1000 numbers range (0 to 999). The main thread waits for all threads to finish their computation and then sums up the result of each thread to the total sum.
 
-int the vm homework3.c is the source code that implements the multithreaded sum calculation using Pthreads, the source code is located in directory homework3.
+using the vm homework3.c is the source code that implements the multithreaded sum calculation using Pthreads, the source code is located in directory called homework3.
 
 Compilation steps
 gcc -o homework3 homework3.c 
